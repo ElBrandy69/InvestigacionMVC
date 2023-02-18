@@ -7,6 +7,7 @@ Modelo Vista Controlador (MVC) es un estilo de arquitectura de software que sepa
 ###Describir el modelo de representación de los datos.
 Se trata de un modelo muy maduro y que ha demostrado su validez a lo largo de los años en todo tipo de aplicaciones, y sobre multitud de lenguajes y plataformas de desarrollo.
 
+##Modelo
 El Modelo que contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
 
 Ejemplo
@@ -81,7 +82,7 @@ class Productos extends BD_PDO
 ?>
 ~~~
 
-
+##Vista
 La Vista, o interfaz de usuario, que compone la información que se envía al cliente y los mecanismos interacción con éste.
 Ejemplo: 
 
@@ -258,6 +259,7 @@ session_start();
 
 ~~~
 
+##Controlador
 El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
 Ejemplo: 
 
