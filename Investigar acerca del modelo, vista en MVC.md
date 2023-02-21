@@ -1,13 +1,13 @@
 
-#Modelo MVC
+# Modelo MVC
 
-##¿Que es el modelo mvc?
+## ¿Que es el modelo mvc?
 Modelo Vista Controlador (MVC) es un estilo de arquitectura de software que separa los datos de una aplicación, la interfaz de usuario, y la lógica de control en tres componentes distintos.
 
-###Describir el modelo de representación de los datos.
+### Describir el modelo de representación de los datos.
 Se trata de un modelo muy maduro y que ha demostrado su validez a lo largo de los años en todo tipo de aplicaciones, y sobre multitud de lenguajes y plataformas de desarrollo.
 
-##Modelo: 
+## Modelo: 
 El Modelo que contiene una representación de los datos que maneja el sistema, su lógica de negocio, y sus mecanismos de persistencia.
 
 Ejemplo
@@ -82,7 +82,7 @@ class Productos extends BD_PDO
 ?>
 ~~~
 
-##Vista: 
+## Vista: 
 La Vista, o interfaz de usuario, que compone la información que se envía al cliente y los mecanismos interacción con éste.
 Ejemplo: 
 
@@ -259,7 +259,7 @@ session_start();
 
 ~~~
 
-##Controlador: 
+## Controlador: 
 El Controlador, que actúa como intermediario entre el Modelo y la Vista, gestionando el flujo de información entre ellos y las transformaciones para adaptar los datos a las necesidades de cada uno.
 Ejemplo: 
 
@@ -340,7 +340,7 @@ session_start();
 	
 ~~~
 
-##Enlistar las funcionalidades de la aplicación.
+## Enlistar las funcionalidades de la aplicación.
 A continuación se presentan las funcionalidades principales del modelo MVC:
 
 - Modelo: El modelo es la capa de datos de la aplicación, es decir, donde se encuentran los datos y la lógica de negocio. Esta capa es responsable de interactuar con la base de datos, realizar operaciones de lectura y escritura de datos, y llevar a cabo el procesamiento de datos.
